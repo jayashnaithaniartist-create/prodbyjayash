@@ -1,30 +1,6 @@
-import { useEffect } from "react";
 
-function useFadeOnScroll() {
-  useEffect(() => {
-    const elements = document.querySelectorAll(".fade-section");
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
-            entry.target.classList.remove("hidden");
-          } else {
-            entry.target.classList.remove("visible");
-            entry.target.classList.add("hidden");
-          }
-        });
-      },
-      { threshold: 0.15 }
-    );
-
-    elements.forEach((el) => observer.observe(el));
-    return () => observer.disconnect();
-  }, []);
-}
 export default function JayashMusicPortfolio() {
-  useFadeOnScroll(); 
+  
   const tracks = [
     {
       title: "Kyu Zindagi",
