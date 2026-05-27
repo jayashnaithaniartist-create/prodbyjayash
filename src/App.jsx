@@ -142,7 +142,7 @@ export default function JayashMusicPortfolio() {
         viewport={{ once: true, amount: 0.05 }} className="relative min-h-screen flex items-center justify-center px-6">
         <div className="absolute inset-0 bg-gradient-to-b from-purple-900/40 via-black to-black" />
 
-        <div className="relative z-10 max-w-6xl w-full grid lg:grid-cols-2 gap-12 items-center">
+        <div className="relative z-10 max-w-4xl w-full flex justify-center text-center items-center">
           <div>
             <p className="uppercase tracking-[0.3em] text-gray-400 mb-4">
               Producer • Singer • Audio Engineer
@@ -157,7 +157,7 @@ export default function JayashMusicPortfolio() {
               electronic music blending Indian influences with modern EDM, Drum
               &amp; Bass, indie, and immersive sound design.
             </p>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap justify-center gap-4">
               <a
                 href="https://open.spotify.com/track/0Uj12mDTTvkrV9wNiGNKJZ?si=e9ba011029724dd3"
                 target="_blank"
@@ -166,22 +166,11 @@ export default function JayashMusicPortfolio() {
               >
                 Listen to my Latest Release "Kyu Zindagi"
               </a>
-              <button className="border border-white/20 px-6 py-3 rounded-2xl hover:bg-white/10 transition">
-                Book Services
-              </button>
+              
             </div>
           </div>
 
-          <div className="relative">
-            <div className="absolute -inset-6 bg-purple-500/20 blur-3xl rounded-full" />
-            <div className="relative bg-zinc-900 border border-white/10 rounded-[2rem] p-8 shadow-2xl">
-              <img
-                src="/jayash3.jpg"
-                alt="Jayash Naithani"
-                className="rounded-2xl w-full h-[450px] object-cover"
-              />
-            </div>
-          </div>
+          
         </div>
       </motion.section>
 
