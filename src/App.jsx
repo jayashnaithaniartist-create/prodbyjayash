@@ -135,7 +135,7 @@ export default function JayashMusicPortfolio() {
             <div className="absolute -inset-6 bg-purple-500/20 blur-3xl rounded-full" />
             <div className="relative bg-zinc-900 border border-white/10 rounded-[2rem] p-8 shadow-2xl">
               <img
-                src="/jayash2.png"
+                src="/jayash2.jpg"
                 alt="Jayash Naithani"
                 className="rounded-2xl w-full h-[450px] object-cover"
               />
