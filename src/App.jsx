@@ -147,9 +147,7 @@ export default function JayashMusicPortfolio() {
         <div className="relative z-10 max-w-4xl mx-auto flex flex-col items-center justify-center">
 
 
-          <h1 className="text-5xl md:text-7xl font-black leading-tight mb-8">
-            JAYASH NAITHANI
-          </h1>
+        
 
           <p className="text-lg text-gray-300 leading-relaxed max-w-3xl mb-10">
             Independent artist, producer, singer, and audio engineer with over
