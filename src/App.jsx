@@ -22,7 +22,7 @@ export default function JayashMusicPortfolio() {
       description:
         "A cinematic indie collaboration exploring freedom, memories, and emotional depth through immersive instrumentation.",
       image:
-        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop",
+        "/dariya.jpeg",
     },
     {
       title: "Mine",
@@ -30,7 +30,7 @@ export default function JayashMusicPortfolio() {
       description:
         "Dark atmospheric production with emotional vocal writing and immersive sound design.",
       image:
-        "https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=1200&auto=format&fit=crop",
+        "/mine.png",
     },
     {
       title: "Tu Na Mila",
@@ -38,7 +38,7 @@ export default function JayashMusicPortfolio() {
       description:
         "A melancholic indie-pop release centered around emotional storytelling and melodic songwriting.",
       image:
-        "https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=1200&auto=format&fit=crop",
+        "/tunamila.png",
     },
     {
       title: "Mai Na Rha",
@@ -46,7 +46,7 @@ export default function JayashMusicPortfolio() {
       description:
         "Raw emotional songwriting combined with cinematic textures and immersive production.",
       image:
-        "https://images.unsplash.com/photo-1496293455970-f8581aae0e3b?q=80&w=1200&auto=format&fit=crop",
+        "mainarha.png",
     },
   ];
 
