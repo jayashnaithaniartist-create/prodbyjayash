@@ -344,22 +344,42 @@ export default function JayashMusicPortfolio() {
                 Open for collaborations, freelance audio work, production projects,
                 and original music opportunities.
               </p>
-              <div className="flex flex-wrap justify-center gap-4">
-                <a
-                  href="mailto:jayashnaithaniartist@gmail.com"
-                  className="bg-white text-black px-8 py-4 rounded-2xl font-semibold hover:scale-105 transition"
+              <form
+                action="https://formsubmit.co/jayashnaithaniartist@gmail.com"
+                method="POST"
+                className="max-w-2xl mx-auto space-y-6"
+              >
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                  className="w-full bg-zinc-900/80 border border-white/10 rounded-2xl px-6 py-4 text-white outline-none focus:border-purple-500 transition"
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                  className="w-full bg-zinc-900/80 border border-white/10 rounded-2xl px-6 py-4 text-white outline-none focus:border-purple-500 transition"
+                />
+
+                <textarea
+                  name="message"
+                  placeholder="Your Message"
+                  rows="6"
+                  required
+                  className="w-full bg-zinc-900/80 border border-white/10 rounded-2xl px-6 py-4 text-white outline-none focus:border-purple-500 transition resize-none"
+                ></textarea>
+
+                <button
+                  type="submit"
+                  className="w-full bg-white text-black py-4 rounded-2xl font-semibold hover:scale-[1.02] transition"
                 >
-                  Email: jayashnaithaniartist@gmail.com
-                </a>
-                <a
-                  href="https://open.spotify.com/artist/07bB80O9umDkGmq0FIfKCm?si=6tfLtNQmTi2EPMLsfHdTjw"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="border border-white/20 px-8 py-4 rounded-2xl hover:bg-white/10 transition"
-                >
-                  Spotify
-                </a>
-              </div>
+                  Send Message
+                </button>
+              </form>
             </div>
           </motion.section>
 
