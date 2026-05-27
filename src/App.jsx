@@ -5,48 +5,66 @@ export default function JayashMusicPortfolio() {
     genre: "Drum & Bass / I-Pop",
     description:
       "An emotional Drum & Bass release driven by heartbreak lyrics, cinematic melodies, and a high-energy drop featuring vocals by Jayash Naithani and Lavanya.",
-    image:
-      "/kyuzindagi.png",
+    image: "/kyuzindagi.png",
+    spotify:
+      "https://open.spotify.com/track/0Uj12mDTTvkrV9wNiGNKJZ?si=1a799e9e2d1b4acd",
+    youtube:
+      "https://youtu.be/UP3iZryzFR8?si=y-5a9EvsMsjeLPMj",
   },
   {
     title: "MITR",
     genre: "Future Bass",
     description:
       "A motivational Future Bass track inspired by Krishna quotes, blending uplifting energy, emotional melodies, and fast-paced electronic production.",
-    image:
-      "/mitr.png",
+    image: "/mitr.png",
+    spotify:
+      "https://open.spotify.com/track/49NikEl2WRRvDKYA5ChkrX?si=3ab3694a227a4882",
+    youtube:
+      "https://youtu.be/nb60a7oIzVs?si=uFdFAPz2bKqjBxKi",
   },
   {
     title: "DARIYA",
     genre: "I-Pop / Acoustic",
     description:
       "A heartfelt acoustic I-Pop track centered around heartbreak emotions, featuring vocals by Jayash and Arnav with expressive electric guitar performances by Ishaan.",
-    image:
-      "/dariya.jpeg",
+    image: "/dariya.jpeg",
+    spotify:
+      "https://open.spotify.com/track/5bWxJlomHxai8GJceKg05H?si=fa414df449d54782",
+    youtube:
+      "https://youtu.be/-xrBnZKPn3U?si=8uJnVtjRH3orAWHp",
   },
   {
     title: "Mine",
     genre: "I-Pop / Hip-Hop",
     description:
       "A romantic I-Pop release combining emotional melodies, electrifying production, vocals by Jayash, and a rap performance by Naxy.",
-    image:
-      "/mine.png",
+    image: "/mine.png",
+    spotify:
+      "https://open.spotify.com/track/0QrjDUgNrjdDi41vQ3kgDL?si=a4afb7515b1146d3",
+    youtube:
+      "https://youtu.be/GaozdCn5MpU?si=vlBIYxm0185VixNE",
   },
   {
     title: "Tu Na Mila",
     genre: "Emotional Future Bass / I-Pop",
     description:
       "A multilingual emotional Future Bass track exploring heartbreak through Hindi vocals by Jayash and Malayalam vocals by Anagha.",
-    image:
-      "/tunamila.png",
+    image: "/tunamila.png",
+    spotify:
+      "https://open.spotify.com/track/31MQF4zIsL2ouIGJdL9WUb?si=ae8f768d8b2e4454",
+    youtube:
+      "https://youtu.be/CD9GhFKmOV0?si=r1JtJzX51Mvq0XM9",
   },
   {
     title: "Mai Na Rha",
     genre: "Emotional Drill",
     description:
       "A dark and emotional Drill track built around heartbreak themes, combining melodic vocals and introspective rap performances by Jayash.",
-    image:
-      "/mainarha.png",
+    image: "/mainarha.png",
+    spotify:
+      "https://open.spotify.com/track/2RuTXRoluSD0zNTkVB4L0f?si=ad9b5ce8656a4884",
+    youtube:
+      "https://youtu.be/prq_yWfLBGw?si=WWLFGPR9xS2IAZJG",
   },
 ];
 
@@ -254,18 +272,24 @@ export default function JayashMusicPortfolio() {
                       <h3 className="text-3xl font-black mb-3">{track.title}</h3>
                       <p className="text-gray-400 mb-6 leading-relaxed">{track.description}</p>
                       <div className="flex gap-3">
-                        <a
-                          href="https://open.spotify.com/artist/07bB80O9umDkGmq0FIfKCm?si=6tfLtNQmTi2EPMLsfHdTjw"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="flex-1 bg-white text-black py-3 rounded-2xl font-semibold hover:opacity-90 transition text-center"
-                        >
-                          Listen
-                        </a>
-                        <button className="px-5 border border-white/20 rounded-2xl hover:bg-white/10 transition">
-                          Share
-                        </button>
-                      </div>
+  <a
+    href={track.spotify}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex-1 bg-[#1DB954] text-white py-3 rounded-2xl font-semibold hover:opacity-90 transition text-center"
+  >
+    Spotify
+  </a>
+
+  <a
+    href={track.youtube}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex-1 bg-[#FF0000] text-white py-3 rounded-2xl font-semibold hover:opacity-90 transition text-center"
+  >
+    YouTube
+  </a>
+</div>
                     </div>
                   </div>
                 ))}
