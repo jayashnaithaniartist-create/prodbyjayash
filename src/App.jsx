@@ -73,7 +73,7 @@ export default function JayashMusicPortfolio() {
 
             <h1 className="text-5xl md:text-7xl font-black leading-tight mb-6">
               JAYASH NAITHANI
-            </h1>
+            </h1>git add .
 
             <p className="text-lg text-gray-300 leading-relaxed max-w-xl mb-8">
               Independent artist, producer, singer, and audio engineer with
@@ -98,7 +98,7 @@ export default function JayashMusicPortfolio() {
 
             <div className="relative bg-zinc-900 border border-white/10 rounded-[2rem] p-8 shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=1200&auto=format&fit=crop"
+                src="\jayash.jpg"
                 alt="Music Studio"
                 className="rounded-2xl w-full h-[450px] object-cover"
               />
