@@ -85,10 +85,9 @@ export default function JayashMusicPortfolio() {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <button className="bg-white text-black px-6 py-3 rounded-2xl font-semibold hover:scale-105 transition">
-                Listen Now
-              </button>
-
+              <a href="https://open.spotify.com/track/0Uj12mDTTvkrV9wNiGNKJZ?si=e9ba011029724dd3" target="_blank" rel="noopener noreferrer" className="bg-white text-black px-6 py-3 rounded-2xl font-semibold hover:scale-105 transition">
+              Listen to my Latest Release "Kyu Zindagi"
+              </a>
               <button className="border border-white/20 px-6 py-3 rounded-2xl hover:bg-white/10 transition">
                 Book Services
               </button>
