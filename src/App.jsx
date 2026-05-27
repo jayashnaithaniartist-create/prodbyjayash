@@ -180,9 +180,7 @@ export default function JayashMusicPortfolio() {
               <div className="bg-zinc-900/70 backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:border-green-500/40 transition">
                 <div className="text-5xl mb-4">🎧</div>
                 <h3 className="text-2xl font-bold mb-2">Spotify</h3>
-                <p className="text-gray-400 text-sm">
-                  800K+ combined streams
-                </p>
+                
               </div>
             </a>
 
@@ -195,9 +193,7 @@ export default function JayashMusicPortfolio() {
               <div className="bg-zinc-900/70 backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:border-red-500/40 transition">
                 <div className="text-5xl mb-4">▶️</div>
                 <h3 className="text-2xl font-bold mb-2">YouTube</h3>
-                <p className="text-gray-400 text-sm">
-                  Visual releases & music
-                </p>
+                
               </div>
             </a>
 
@@ -210,9 +206,7 @@ export default function JayashMusicPortfolio() {
               <div className="bg-zinc-900/70 backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:border-pink-500/40 transition">
                 <div className="text-5xl mb-4">🎵</div>
                 <h3 className="text-2xl font-bold mb-2">Apple Music</h3>
-                <p className="text-gray-400 text-sm">
-                  Official releases
-                </p>
+               
               </div>
             </a>
           </div>
