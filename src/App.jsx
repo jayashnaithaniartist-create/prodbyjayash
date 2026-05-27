@@ -168,9 +168,12 @@ export default function JayashMusicPortfolio() {
               rel="noopener noreferrer"
               className="bg-white text-black px-8 py-4 rounded-2xl font-semibold hover:scale-105 transition"
             >
-              Listen to my Latest Release "Kyu Zindagi"
+              Listen to my Latest Release "Kyu Zindagi" on Spotify
             </a>
           </div>
+          <p className="text-gray-400 text-lg mb-8 mt-14 max-w-2xl">
+            Explore more of my original releases available across all major streaming platforms worldwide.
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 w-full max-w-5xl">
             <a
               href="https://open.spotify.com/artist/07bB80O9umDkGmq0FIfKCm?si=6tfLtNQmTi2EPMLsfHdTjw"
