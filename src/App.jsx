@@ -61,6 +61,41 @@ export default function JayashMusicPortfolio() {
 
   return (
     <div className="bg-black text-white font-sans overflow-x-hidden">
+      {/* ── INTRO LANDING PAGE ── */}
+<section
+  className="relative h-screen flex items-center justify-center overflow-hidden"
+>
+  {/* Background Image */}
+  <img
+    src="/intro-bg.jpg"
+    alt="Jayash Background"
+    className="absolute inset-0 w-full h-full object-cover"
+  />
+
+  {/* Dark Overlay */}
+  <div className="absolute inset-0 bg-black/60" />
+
+  {/* Glow */}
+  <div className="absolute inset-0 bg-purple-900/20 blur-3xl" />
+
+  {/* Center Text */}
+  <div className="relative z-10 text-center px-6">
+    <h1 className="text-6xl md:text-8xl lg:text-[10rem] font-black tracking-[0.15em] text-white">
+      JAYASH NAITHANI
+    </h1>
+
+    <p className="mt-6 text-gray-300 uppercase tracking-[0.4em] text-sm md:text-base">
+      Producer • Artist • Audio Engineer
+    </p>
+  </div>
+
+  {/* Scroll Indicator */}
+  <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
+    <div className="w-6 h-10 border border-white/40 rounded-full flex justify-center">
+      <div className="w-1 h-3 bg-white rounded-full mt-2" />
+    </div>
+  </div>
+</section>
 
       {/* ── HERO ── */}
       <section className="relative min-h-screen flex items-center justify-center px-6">
