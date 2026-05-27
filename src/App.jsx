@@ -171,6 +171,52 @@ export default function JayashMusicPortfolio() {
               Listen to my Latest Release "Kyu Zindagi"
             </a>
           </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 w-full max-w-5xl">
+            <a
+              href="https://open.spotify.com/artist/07bB80O9umDkGmq0FIfKCm?si=6tfLtNQmTi2EPMLsfHdTjw"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+            >
+              <div className="bg-zinc-900/70 backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:border-green-500/40 transition">
+                <div className="text-5xl mb-4">🎧</div>
+                <h3 className="text-2xl font-bold mb-2">Spotify</h3>
+                <p className="text-gray-400 text-sm">
+                  800K+ combined streams
+                </p>
+              </div>
+            </a>
+
+            <a
+              href="https://www.youtube.com/@jayashnaithanimusic"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+            >
+              <div className="bg-zinc-900/70 backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:border-red-500/40 transition">
+                <div className="text-5xl mb-4">▶️</div>
+                <h3 className="text-2xl font-bold mb-2">YouTube</h3>
+                <p className="text-gray-400 text-sm">
+                  Visual releases & music
+                </p>
+              </div>
+            </a>
+
+            <a
+              href="https://music.apple.com/us/artist/jayash-naithani/1631734935"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+            >
+              <div className="bg-zinc-900/70 backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:border-pink-500/40 transition">
+                <div className="text-5xl mb-4">🎵</div>
+                <h3 className="text-2xl font-bold mb-2">Apple Music</h3>
+                <p className="text-gray-400 text-sm">
+                  Official releases
+                </p>
+              </div>
+            </a>
+          </div>
         </div>
       </motion.section>
 
@@ -372,57 +418,7 @@ export default function JayashMusicPortfolio() {
             </div>
           </motion.section>
 
-          {/* Streaming Platforms */}
-          <motion.section
-            variants={fadeInUp}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.05 }} className="py-24 px-6 border-t border-white/10">
-            <div className="max-w-6xl mx-auto text-center">
-              <h2 className="text-5xl font-black mb-6">Listen Everywhere.</h2>
-              <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-12">
-                Explore Jayash Naithani's music across Spotify, YouTube, and Apple Music worldwide.
-              </p>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <a
-                  href="https://open.spotify.com/artist/07bB80O9umDkGmq0FIfKCm?si=6tfLtNQmTi2EPMLsfHdTjw"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block"
-                >
-                  <div className="bg-zinc-900/80 border border-white/10 rounded-3xl p-8 hover:border-green-500/40 transition">
-                    <div className="text-5xl mb-4">🎧</div>
-                    <h3 className="text-xl font-bold mb-2">Spotify</h3>
-                    <p className="text-gray-400 text-sm">800K+ combined streams</p>
-                  </div>
-                </a>
-                <a
-                  href="https://www.youtube.com/@jayashnaithanimusic"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block"
-                >
-                  <div className="bg-zinc-900/80 border border-white/10 rounded-3xl p-8 hover:border-red-500/40 transition">
-                    <div className="text-5xl mb-4">▶️</div>
-                    <h3 className="text-xl font-bold mb-2">YouTube</h3>
-                    <p className="text-gray-400 text-sm">Visual releases &amp; music</p>
-                  </div>
-                </a>
-                <a
-                  href="https://music.apple.com/us/artist/jayash-naithani/1631734935"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block"
-                >
-                  <div className="bg-zinc-900/80 border border-white/10 rounded-3xl p-8 hover:border-pink-500/40 transition">
-                    <div className="text-5xl mb-4">🎵</div>
-                    <h3 className="text-xl font-bold mb-2">Apple Music</h3>
-                    <p className="text-gray-400 text-sm">Official releases</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </motion.section>
+
 
         </div> {/* end relative z-10 */}
       </div> {/* end background wrapper */}
