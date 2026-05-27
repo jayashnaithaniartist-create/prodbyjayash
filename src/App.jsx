@@ -139,38 +139,38 @@ export default function JayashMusicPortfolio() {
         variants={fadeInUp}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.05 }} className="relative min-h-screen flex items-center justify-center px-6">
+        viewport={{ once: true, amount: 0.05 }}
+        className="relative min-h-screen flex items-center justify-center px-6 text-center"
+      >
         <div className="absolute inset-0 bg-gradient-to-b from-purple-900/40 via-black to-black" />
 
-        <div className="relative z-10 max-w-4xl w-full flex justify-center text-center items-center">
-          <div>
-            <p className="uppercase tracking-[0.3em] text-gray-400 mb-4">
-              Producer • Singer • Audio Engineer
-            </p>
-            <h1 className="text-5xl md:text-7xl font-black leading-tight mb-6">
-              JAYASH NAITHANI
-            </h1>
-            <p className="text-lg text-gray-300 leading-relaxed max-w-xl mb-8">
-              Independent artist, producer, singer, and audio engineer with
-              over 800K+ combined streams across Spotify, Apple Music, YouTube,
-              and streaming platforms worldwide. Creating emotional, cinematic
-              electronic music blending Indian influences with modern EDM, Drum
-              &amp; Bass, indie, and immersive sound design.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <a
-                href="https://open.spotify.com/track/0Uj12mDTTvkrV9wNiGNKJZ?si=e9ba011029724dd3"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white text-black px-6 py-3 rounded-2xl font-semibold hover:scale-105 transition"
-              >
-                Listen to my Latest Release "Kyu Zindagi"
-              </a>
-              
-            </div>
-          </div>
+        <div className="relative z-10 max-w-4xl mx-auto flex flex-col items-center justify-center">
+          <p className="uppercase tracking-[0.3em] text-gray-400 mb-6">
+            Producer • Singer • Audio Engineer
+          </p>
 
-          
+          <h1 className="text-5xl md:text-7xl font-black leading-tight mb-8">
+            JAYASH NAITHANI
+          </h1>
+
+          <p className="text-lg text-gray-300 leading-relaxed max-w-3xl mb-10">
+            Independent artist, producer, singer, and audio engineer with over
+            800K+ combined streams across Spotify, Apple Music, YouTube, and
+            streaming platforms worldwide. Creating emotional, cinematic
+            electronic music blending Indian influences with modern EDM, Drum &
+            Bass, indie, and immersive sound design.
+          </p>
+
+          <div className="flex justify-center">
+            <a
+              href="https://open.spotify.com/track/0Uj12mDTTvkrV9wNiGNKJZ?si=e9ba011029724dd3"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-black px-8 py-4 rounded-2xl font-semibold hover:scale-105 transition"
+            >
+              Listen to my Latest Release "Kyu Zindagi"
+            </a>
+          </div>
         </div>
       </motion.section>
 
