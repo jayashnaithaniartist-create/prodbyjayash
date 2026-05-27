@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 export default function JayashMusicPortfolio() {
   const tracks = [
   {
@@ -76,11 +77,29 @@ export default function JayashMusicPortfolio() {
     "Songwriting",
     "Sound Design",
   ];
+  const fadeInUp = {
+  hidden: {
+    opacity: 0,
+    y: 80,
+  },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 1,
+      ease: "easeOut",
+    },
+  },
+};
 
   return (
     <div className="bg-black text-white font-sans overflow-x-hidden">
       {/* ── INTRO LANDING PAGE ── */}
-<section
+<motion.section
+  variants={fadeInUp}
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: false, amount: 0.2 }}
   className="relative h-screen flex items-center justify-center overflow-hidden"
 >
   {/* Background Image */}
@@ -113,10 +132,14 @@ export default function JayashMusicPortfolio() {
       <div className="w-1 h-3 bg-white rounded-full mt-2" />
     </div>
   </div>
-</section>
+</motion.section>
 
       {/* ── HERO ── */}
-      <section className="relative min-h-screen flex items-center justify-center px-6">
+      <motion.section
+  variants={fadeInUp}
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: false, amount: 0.2 }} className="relative min-h-screen flex items-center justify-center px-6">
         <div className="absolute inset-0 bg-gradient-to-b from-purple-900/40 via-black to-black" />
 
         <div className="relative z-10 max-w-6xl w-full grid lg:grid-cols-2 gap-12 items-center">
@@ -160,7 +183,7 @@ export default function JayashMusicPortfolio() {
             </div>
           </div>
         </div>
-      </section>
+      </motion.section>
 
       {/* ── BACKGROUND WRAPPER: About → Streaming ── */}
       <div
@@ -179,7 +202,11 @@ export default function JayashMusicPortfolio() {
         <div className="relative z-10">
 
           {/* About Section */}
-          <section className="py-24 px-6 border-t border-white/10">
+          <motion.section
+  variants={fadeInUp}
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: false, amount: 0.2 }} className="py-24 px-6 border-t border-white/10">
             <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-4xl font-bold mb-6">About Me</h2>
@@ -214,10 +241,14 @@ export default function JayashMusicPortfolio() {
                 </div>
               </div>
             </div>
-          </section>
+          </motion.section>
 
           {/* Services */}
-          <section className="py-24 px-6 border-t border-white/10">
+          <motion.section
+  variants={fadeInUp}
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: false, amount: 0.2 }} className="py-24 px-6 border-t border-white/10">
             <div className="max-w-6xl mx-auto">
               <div className="mb-12 text-center">
                 <h2 className="text-4xl font-bold mb-4">Services</h2>
@@ -244,10 +275,14 @@ export default function JayashMusicPortfolio() {
                 ))}
               </div>
             </div>
-          </section>
+          </motion.section>
 
           {/* Featured Releases */}
-          <section className="py-24 px-6 border-t border-white/10">
+          <motion.section
+  variants={fadeInUp}
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: false, amount: 0.2 }} className="py-24 px-6 border-t border-white/10">
             <div className="max-w-6xl mx-auto">
               <div className="mb-12 text-center">
                 <h2 className="text-4xl font-bold mb-4">Featured Releases</h2>
@@ -295,10 +330,14 @@ export default function JayashMusicPortfolio() {
                 ))}
               </div>
             </div>
-          </section>
+          </motion.section>
 
           {/* Contact */}
-          <section className="py-24 px-6 border-t border-white/10">
+          <motion.section
+  variants={fadeInUp}
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: false, amount: 0.2 }} className="py-24 px-6 border-t border-white/10">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-5xl font-black mb-6">Let's Create Something Incredible.</h2>
               <p className="text-gray-400 text-lg mb-10 max-w-2xl mx-auto">
@@ -322,10 +361,14 @@ export default function JayashMusicPortfolio() {
                 </a>
               </div>
             </div>
-          </section>
+          </motion.section>
 
           {/* Streaming Platforms */}
-          <section className="py-24 px-6 border-t border-white/10">
+          <motion.section
+  variants={fadeInUp}
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: false, amount: 0.2 }} className="py-24 px-6 border-t border-white/10">
             <div className="max-w-6xl mx-auto text-center">
               <h2 className="text-5xl font-black mb-6">Listen Everywhere.</h2>
               <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-12">
@@ -370,7 +413,7 @@ export default function JayashMusicPortfolio() {
                 </a>
               </div>
             </div>
-          </section>
+          </motion.section>
 
         </div> {/* end relative z-10 */}
       </div> {/* end background wrapper */}
