@@ -337,7 +337,7 @@ export default function JayashMusicPortfolio() {
             <a href="https://www.instagram.com/prodbyjayash/" target="_blank" rel="noopener noreferrer">Instagram</a>
             <a href="https://open.spotify.com/artist/07bB80O9umDkGmq0FIfKCm?si=6tfLtNQmTi2EPMLsfHdTjw" target="_blank" rel="noopener noreferrer">Spotify</a>
             <a href="https://www.youtube.com/@jayashnaithanimusic" target="_blank" rel="noopener noreferrer">YouTube</a>
-            <a href="#">SoundCloud</a>
+            
           </div>
         </div>
       </footer>
