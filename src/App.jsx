@@ -113,7 +113,7 @@ export default function JayashMusicPortfolio() {
       <div
         className="relative"
         style={{
-          backgroundImage: "url('/jayash-bg.png')",
+          backgroundImage: "url('/jayash-bg-2.png')",
           backgroundSize: "cover",
           backgroundPosition: "center top",
           backgroundAttachment: "fixed",
