@@ -70,12 +70,36 @@ export default function JayashMusicPortfolio() {
   ];
 
   const services = [
-    "Music Production",
-    "Mixing & Mastering",
-    "Vocal Recording & Editing",
-    "Beat Production",
-    "Songwriting",
-    "Sound Design",
+    {
+      title: "Music Production",
+      description:
+        "Full-scale music production from idea to final release, blending cinematic sound design, emotional melodies, and modern electronic production.",
+    },
+    {
+      title: "Mixing & Mastering",
+      description:
+        "Professional mixing and mastering focused on clarity, loudness, depth, and industry-level sonic balance across all streaming platforms.",
+    },
+    {
+      title: "Vocal Recording & Editing",
+      description:
+        "Clean vocal recording, tuning, timing correction, layering, and vocal processing designed for polished and emotionally impactful performances.",
+    },
+    {
+      title: "Beat Production",
+      description:
+        "Custom beat production across EDM, Drum & Bass, hip-hop, emotional electronic, indie, and experimental genres tailored to your artistic vision.",
+    },
+    {
+      title: "Songwriting",
+      description:
+        "Original songwriting and lyrical concepts focused on emotional storytelling, immersive melodies, and memorable musical identity.",
+    },
+    {
+      title: "Sound Design",
+      description:
+        "Creative sound design using atmospheric textures, cinematic effects, synth programming, and immersive audio elements for unique sonic experiences.",
+    },
   ];
   const fadeInUp = {
     hidden: {
@@ -147,7 +171,7 @@ export default function JayashMusicPortfolio() {
         <div className="relative z-10 max-w-4xl mx-auto flex flex-col items-center justify-center">
 
 
-        
+
 
           <p className="text-lg text-gray-300 leading-relaxed max-w-3xl mb-10">
             Independent artist, producer, singer, and audio engineer with over
@@ -180,7 +204,7 @@ export default function JayashMusicPortfolio() {
               <div className="bg-zinc-900/70 backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:border-green-500/40 transition">
                 <div className="text-5xl mb-4">🎧</div>
                 <h3 className="text-2xl font-bold mb-2">Spotify</h3>
-                
+
               </div>
             </a>
 
@@ -193,7 +217,7 @@ export default function JayashMusicPortfolio() {
               <div className="bg-zinc-900/70 backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:border-red-500/40 transition">
                 <div className="text-5xl mb-4">▶️</div>
                 <h3 className="text-2xl font-bold mb-2">YouTube</h3>
-                
+
               </div>
             </a>
 
@@ -206,7 +230,7 @@ export default function JayashMusicPortfolio() {
               <div className="bg-zinc-900/70 backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:border-pink-500/40 transition">
                 <div className="text-5xl mb-4">🎵</div>
                 <h3 className="text-2xl font-bold mb-2">Apple Music</h3>
-               
+
               </div>
             </a>
           </div>
@@ -294,10 +318,11 @@ export default function JayashMusicPortfolio() {
                     <div className="w-12 h-12 rounded-2xl bg-purple-500/20 mb-6 flex items-center justify-center text-xl">
                       🎵
                     </div>
-                    <h3 className="text-xl font-semibold mb-3">{service}</h3>
+                    <h3 className="text-xl font-semibold mb-3">
+                      {service.title}
+                    </h3>
                     <p className="text-gray-400 leading-relaxed">
-                      High-quality professional workflow focused on creativity,
-                      clarity, and industry-level sound.
+                      {service.description}
                     </p>
                   </div>
                 ))}
