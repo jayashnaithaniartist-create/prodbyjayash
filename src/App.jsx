@@ -84,9 +84,9 @@ export default function JayashMusicPortfolio() {
   },
   visible: {
     opacity: 1,
-    y: 0,
+    y: 120,
     transition: {
-      duration: 1,
+      duration: 1.4,
       ease: "easeOut",
     },
   },
