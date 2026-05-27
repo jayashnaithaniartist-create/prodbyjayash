@@ -72,7 +72,7 @@ export default function JayashMusicPortfolio() {
             </p>
 
             <h1 className="text-5xl md:text-7xl font-black leading-tight mb-6">
-              JAYASH
+              JAYASH NAITHANI
             </h1>
 
             <p className="text-lg text-gray-300 leading-relaxed max-w-xl mb-8">
