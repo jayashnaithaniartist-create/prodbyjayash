@@ -80,14 +80,14 @@ export default function JayashMusicPortfolio() {
   const fadeInUp = {
     hidden: {
       opacity: 0,
-      y: 40,
+      y: 50,
     },
     visible: {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.8,
-        ease: "easeOut",
+        duration: 0.9,
+        ease: [0.22, 1, 0.36, 1],
       },
     },
   };
@@ -99,7 +99,7 @@ export default function JayashMusicPortfolio() {
         variants={fadeInUp}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.05 }}
+        viewport={{ once: false, amount: 0.15 }}
         className="relative h-screen flex items-center justify-center overflow-hidden"
       >
         {/* Background Image */}
@@ -139,15 +139,13 @@ export default function JayashMusicPortfolio() {
         variants={fadeInUp}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.05 }}
+        viewport={{ once: false, amount: 0.15 }}
         className="relative min-h-screen flex items-center justify-center px-6 text-center"
       >
         <div className="absolute inset-0 bg-gradient-to-b from-purple-900/40 via-black to-black" />
 
         <div className="relative z-10 max-w-4xl mx-auto flex flex-col items-center justify-center">
-          <p className="uppercase tracking-[0.3em] text-gray-400 mb-6">
-            Producer • Singer • Audio Engineer
-          </p>
+
 
           <h1 className="text-5xl md:text-7xl font-black leading-tight mb-8">
             JAYASH NAITHANI
@@ -244,7 +242,7 @@ export default function JayashMusicPortfolio() {
             variants={fadeInUp}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.05 }} className="py-24 px-6 border-t border-white/10">
+            viewport={{ once: false, amount: 0.15 }} className="py-24 px-6 border-t border-white/10">
             <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-4xl font-bold mb-6">About Me</h2>
@@ -286,7 +284,7 @@ export default function JayashMusicPortfolio() {
             variants={fadeInUp}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.05 }} className="py-24 px-6 border-t border-white/10">
+            viewport={{ once: false, amount: 0.15 }} className="py-24 px-6 border-t border-white/10">
             <div className="max-w-6xl mx-auto">
               <div className="mb-12 text-center">
                 <h2 className="text-4xl font-bold mb-4">Services</h2>
@@ -320,7 +318,7 @@ export default function JayashMusicPortfolio() {
             variants={fadeInUp}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.05 }} className="py-24 px-6 border-t border-white/10">
+            viewport={{ once: false, amount: 0.15 }} className="py-24 px-6 border-t border-white/10">
             <div className="max-w-6xl mx-auto">
               <div className="mb-12 text-center">
                 <h2 className="text-4xl font-bold mb-4">Featured Releases</h2>
@@ -375,7 +373,7 @@ export default function JayashMusicPortfolio() {
             variants={fadeInUp}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.05 }} className="py-24 px-6 border-t border-white/10">
+            viewport={{ once: false, amount: 0.15 }} className="py-24 px-6 border-t border-white/10">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-5xl font-black mb-6">Let's Create Something Incredible.</h2>
               <p className="text-gray-400 text-lg mb-10 max-w-2xl mx-auto">
