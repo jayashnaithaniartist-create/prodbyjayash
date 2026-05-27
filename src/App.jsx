@@ -6,7 +6,7 @@ export default function JayashMusicPortfolio() {
       description:
         "A deeply emotional electronic single blending cinematic production with heartfelt vocals by Jayash Naithani and Lavanya Bajpai.",
       image:
-        "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=1200&auto=format&fit=crop",
+        "/kyuzindagi.png",
     },
     {
       title: "MITR",
@@ -14,7 +14,7 @@ export default function JayashMusicPortfolio() {
       description:
         "Minimal yet immersive production inspired by emotional and spiritual storytelling with atmospheric textures.",
       image:
-        "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?q=80&w=1200&auto=format&fit=crop",
+        "/mitr.png",
     },
     {
       title: "DARIYA",
