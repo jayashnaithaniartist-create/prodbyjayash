@@ -1,73 +1,73 @@
 import { motion } from "framer-motion";
 export default function JayashMusicPortfolio() {
   const tracks = [
-  {
-    title: "Kyu Zindagi",
-    genre: "Drum & Bass / I-Pop",
-    description:
-      "An emotional Drum & Bass release driven by heartbreak lyrics, cinematic melodies, and a high-energy drop featuring vocals by Jayash Naithani and Lavanya.",
-    image: "/kyuzindagi.png",
-    spotify:
-      "https://open.spotify.com/track/0Uj12mDTTvkrV9wNiGNKJZ?si=1a799e9e2d1b4acd",
-    youtube:
-      "https://youtu.be/UP3iZryzFR8?si=y-5a9EvsMsjeLPMj",
-  },
-  {
-    title: "MITR",
-    genre: "Future Bass",
-    description:
-      "A motivational Future Bass track inspired by Krishna quotes, blending uplifting energy, emotional melodies, and fast-paced electronic production.",
-    image: "/mitr.png",
-    spotify:
-      "https://open.spotify.com/track/49NikEl2WRRvDKYA5ChkrX?si=3ab3694a227a4882",
-    youtube:
-      "https://youtu.be/nb60a7oIzVs?si=uFdFAPz2bKqjBxKi",
-  },
-  {
-    title: "DARIYA",
-    genre: "I-Pop / Acoustic",
-    description:
-      "A heartfelt acoustic I-Pop track centered around heartbreak emotions, featuring vocals by Jayash and Arnav with expressive electric guitar performances by Ishaan.",
-    image: "/dariya.jpeg",
-    spotify:
-      "https://open.spotify.com/track/5bWxJlomHxai8GJceKg05H?si=fa414df449d54782",
-    youtube:
-      "https://youtu.be/-xrBnZKPn3U?si=8uJnVtjRH3orAWHp",
-  },
-  {
-    title: "Mine",
-    genre: "I-Pop / Hip-Hop",
-    description:
-      "A romantic I-Pop release combining emotional melodies, electrifying production, vocals by Jayash, and a rap performance by Naxy.",
-    image: "/mine.png",
-    spotify:
-      "https://open.spotify.com/track/0QrjDUgNrjdDi41vQ3kgDL?si=a4afb7515b1146d3",
-    youtube:
-      "https://youtu.be/GaozdCn5MpU?si=vlBIYxm0185VixNE",
-  },
-  {
-    title: "Tu Na Mila",
-    genre: "Emotional Future Bass / I-Pop",
-    description:
-      "A multilingual emotional Future Bass track exploring heartbreak through Hindi vocals by Jayash and Malayalam vocals by Anagha.",
-    image: "/tunamila.png",
-    spotify:
-      "https://open.spotify.com/track/31MQF4zIsL2ouIGJdL9WUb?si=ae8f768d8b2e4454",
-    youtube:
-      "https://youtu.be/CD9GhFKmOV0?si=r1JtJzX51Mvq0XM9",
-  },
-  {
-    title: "Mai Na Rha",
-    genre: "Emotional Drill",
-    description:
-      "A dark and emotional Drill track built around heartbreak themes, combining melodic vocals and introspective rap performances by Jayash.",
-    image: "/mainarha.png",
-    spotify:
-      "https://open.spotify.com/track/2RuTXRoluSD0zNTkVB4L0f?si=ad9b5ce8656a4884",
-    youtube:
-      "https://youtu.be/prq_yWfLBGw?si=WWLFGPR9xS2IAZJG",
-  },
-];
+    {
+      title: "Kyu Zindagi",
+      genre: "Drum & Bass / I-Pop",
+      description:
+        "An emotional Drum & Bass release driven by heartbreak lyrics, cinematic melodies, and a high-energy drop featuring vocals by Jayash Naithani and Lavanya.",
+      image: "/kyuzindagi.png",
+      spotify:
+        "https://open.spotify.com/track/0Uj12mDTTvkrV9wNiGNKJZ?si=1a799e9e2d1b4acd",
+      youtube:
+        "https://youtu.be/UP3iZryzFR8?si=y-5a9EvsMsjeLPMj",
+    },
+    {
+      title: "MITR",
+      genre: "Future Bass",
+      description:
+        "A motivational Future Bass track inspired by Krishna quotes, blending uplifting energy, emotional melodies, and fast-paced electronic production.",
+      image: "/mitr.png",
+      spotify:
+        "https://open.spotify.com/track/49NikEl2WRRvDKYA5ChkrX?si=3ab3694a227a4882",
+      youtube:
+        "https://youtu.be/nb60a7oIzVs?si=uFdFAPz2bKqjBxKi",
+    },
+    {
+      title: "DARIYA",
+      genre: "I-Pop / Acoustic",
+      description:
+        "A heartfelt acoustic I-Pop track centered around heartbreak emotions, featuring vocals by Jayash and Arnav with expressive electric guitar performances by Ishaan.",
+      image: "/dariya.jpeg",
+      spotify:
+        "https://open.spotify.com/track/5bWxJlomHxai8GJceKg05H?si=fa414df449d54782",
+      youtube:
+        "https://youtu.be/-xrBnZKPn3U?si=8uJnVtjRH3orAWHp",
+    },
+    {
+      title: "Mine",
+      genre: "I-Pop / Hip-Hop",
+      description:
+        "A romantic I-Pop release combining emotional melodies, electrifying production, vocals by Jayash, and a rap performance by Naxy.",
+      image: "/mine.png",
+      spotify:
+        "https://open.spotify.com/track/0QrjDUgNrjdDi41vQ3kgDL?si=a4afb7515b1146d3",
+      youtube:
+        "https://youtu.be/GaozdCn5MpU?si=vlBIYxm0185VixNE",
+    },
+    {
+      title: "Tu Na Mila",
+      genre: "Emotional Future Bass / I-Pop",
+      description:
+        "A multilingual emotional Future Bass track exploring heartbreak through Hindi vocals by Jayash and Malayalam vocals by Anagha.",
+      image: "/tunamila.png",
+      spotify:
+        "https://open.spotify.com/track/31MQF4zIsL2ouIGJdL9WUb?si=ae8f768d8b2e4454",
+      youtube:
+        "https://youtu.be/CD9GhFKmOV0?si=r1JtJzX51Mvq0XM9",
+    },
+    {
+      title: "Mai Na Rha",
+      genre: "Emotional Drill",
+      description:
+        "A dark and emotional Drill track built around heartbreak themes, combining melodic vocals and introspective rap performances by Jayash.",
+      image: "/mainarha.png",
+      spotify:
+        "https://open.spotify.com/track/2RuTXRoluSD0zNTkVB4L0f?si=ad9b5ce8656a4884",
+      youtube:
+        "https://youtu.be/prq_yWfLBGw?si=WWLFGPR9xS2IAZJG",
+    },
+  ];
 
   const services = [
     "Music Production",
@@ -78,68 +78,68 @@ export default function JayashMusicPortfolio() {
     "Sound Design",
   ];
   const fadeInUp = {
-  hidden: {
-    opacity: 0,
-    y: 40,
-  },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.8,
-      ease: "easeOut",
+    hidden: {
+      opacity: 0,
+      y: 40,
     },
-  },
-};
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.8,
+        ease: "easeOut",
+      },
+    },
+  };
 
   return (
     <div className="bg-black text-white font-sans overflow-x-hidden">
       {/* ── INTRO LANDING PAGE ── */}
-<motion.section
-  variants={fadeInUp}
-  initial="hidden"
-  whileInView="visible"
-  viewport={{ once: true, amount: 0.05 }}
-  className="relative h-screen flex items-center justify-center overflow-hidden"
->
-  {/* Background Image */}
-  <img
-    src="/intro-bg.png"
-    alt="Jayash Background"
-    className="absolute inset-0 w-full h-full object-cover"
-  />
+      <motion.section
+        variants={fadeInUp}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.05 }}
+        className="relative h-screen flex items-center justify-center overflow-hidden"
+      >
+        {/* Background Image */}
+        <img
+          src="/intro-bg.png"
+          alt="Jayash Background"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
 
-  {/* Dark Overlay */}
-  <div className="absolute inset-0 bg-black/60" />
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-black/60" />
 
-  {/* Glow */}
-  <div className="absolute inset-0 bg-purple-900/20 blur-3xl" />
+        {/* Glow */}
+        <div className="absolute inset-0 bg-purple-900/20 blur-3xl" />
 
-  {/* Center Text */}
-  <div className="relative z-10 text-center px-6">
-    <h1 className="text-6xl md:text-8xl lg:text-[10rem] font-black tracking-[0.15em] text-white">
-      JAYASH NAITHANI
-    </h1>
+        {/* Center Text */}
+        <div className="relative z-10 text-center px-6">
+          <h1 className="text-6xl md:text-8xl lg:text-[10rem] font-black tracking-[0.15em] text-white">
+            JAYASH NAITHANI
+          </h1>
 
-    <p className="mt-6 text-gray-300 uppercase tracking-[0.4em] text-sm md:text-base">
-      Producer • Artist • Audio Engineer
-    </p>
-  </div>
+          <p className="mt-6 text-gray-300 uppercase tracking-[0.4em] text-sm md:text-base">
+            Producer • Artist • Audio Engineer
+          </p>
+        </div>
 
-  {/* Scroll Indicator */}
-  <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
-    <div className="w-6 h-10 border border-white/40 rounded-full flex justify-center">
-      <div className="w-1 h-3 bg-white rounded-full mt-2" />
-    </div>
-  </div>
-</motion.section>
+        {/* Scroll Indicator */}
+        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
+          <div className="w-6 h-10 border border-white/40 rounded-full flex justify-center">
+            <div className="w-1 h-3 bg-white rounded-full mt-2" />
+          </div>
+        </div>
+      </motion.section>
 
       {/* ── HERO ── */}
       <motion.section
-  variants={fadeInUp}
-  initial="hidden"
-  whileInView="visible"
-  viewport={{ once: true, amount: 0.05 }} className="relative min-h-screen flex items-center justify-center px-6">
+        variants={fadeInUp}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.05 }} className="relative min-h-screen flex items-center justify-center px-6">
         <div className="absolute inset-0 bg-gradient-to-b from-purple-900/40 via-black to-black" />
 
         <div className="relative z-10 max-w-6xl w-full grid lg:grid-cols-2 gap-12 items-center">
@@ -203,10 +203,10 @@ export default function JayashMusicPortfolio() {
 
           {/* About Section */}
           <motion.section
-  variants={fadeInUp}
-  initial="hidden"
-  whileInView="visible"
-  viewport={{ once: true, amount: 0.05 }} className="py-24 px-6 border-t border-white/10">
+            variants={fadeInUp}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.05 }} className="py-24 px-6 border-t border-white/10">
             <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-4xl font-bold mb-6">About Me</h2>
@@ -245,10 +245,10 @@ export default function JayashMusicPortfolio() {
 
           {/* Services */}
           <motion.section
-  variants={fadeInUp}
-  initial="hidden"
-  whileInView="visible"
-  viewport={{ once: true, amount: 0.05 }} className="py-24 px-6 border-t border-white/10">
+            variants={fadeInUp}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.05 }} className="py-24 px-6 border-t border-white/10">
             <div className="max-w-6xl mx-auto">
               <div className="mb-12 text-center">
                 <h2 className="text-4xl font-bold mb-4">Services</h2>
@@ -279,10 +279,10 @@ export default function JayashMusicPortfolio() {
 
           {/* Featured Releases */}
           <motion.section
-  variants={fadeInUp}
-  initial="hidden"
-  whileInView="visible"
-  viewport={{ once: true, amount: 0.05 }} className="py-24 px-6 border-t border-white/10">
+            variants={fadeInUp}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.05 }} className="py-24 px-6 border-t border-white/10">
             <div className="max-w-6xl mx-auto">
               <div className="mb-12 text-center">
                 <h2 className="text-4xl font-bold mb-4">Featured Releases</h2>
@@ -307,24 +307,24 @@ export default function JayashMusicPortfolio() {
                       <h3 className="text-3xl font-black mb-3">{track.title}</h3>
                       <p className="text-gray-400 mb-6 leading-relaxed">{track.description}</p>
                       <div className="flex gap-3">
-  <a
-    href={track.spotify}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex-1 bg-[#1DB954] text-white py-3 rounded-2xl font-semibold hover:opacity-90 transition text-center"
-  >
-    Spotify
-  </a>
+                        <a
+                          href={track.spotify}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex-1 bg-[#1DB954] text-white py-3 rounded-2xl font-semibold hover:opacity-90 transition text-center"
+                        >
+                          Spotify
+                        </a>
 
-  <a
-    href={track.youtube}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex-1 bg-[#FF0000] text-white py-3 rounded-2xl font-semibold hover:opacity-90 transition text-center"
-  >
-    YouTube
-  </a>
-</div>
+                        <a
+                          href={track.youtube}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex-1 bg-[#FF0000] text-white py-3 rounded-2xl font-semibold hover:opacity-90 transition text-center"
+                        >
+                          YouTube
+                        </a>
+                      </div>
                     </div>
                   </div>
                 ))}
@@ -334,10 +334,10 @@ export default function JayashMusicPortfolio() {
 
           {/* Contact */}
           <motion.section
-  variants={fadeInUp}
-  initial="hidden"
-  whileInView="visible"
-  viewport={{ once: true, amount: 0.05 }} className="py-24 px-6 border-t border-white/10">
+            variants={fadeInUp}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.05 }} className="py-24 px-6 border-t border-white/10">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-5xl font-black mb-6">Let's Create Something Incredible.</h2>
               <p className="text-gray-400 text-lg mb-10 max-w-2xl mx-auto">
@@ -346,10 +346,10 @@ export default function JayashMusicPortfolio() {
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a
-                  href="mailto:your@email.com"
+                  href="mailto:jayashnaithaniartist@gmail.com"
                   className="bg-white text-black px-8 py-4 rounded-2xl font-semibold hover:scale-105 transition"
                 >
-                  Contact Me
+                  Email: jayashnaithaniartist@gmail.com
                 </a>
                 <a
                   href="https://open.spotify.com/artist/07bB80O9umDkGmq0FIfKCm?si=6tfLtNQmTi2EPMLsfHdTjw"
@@ -365,10 +365,10 @@ export default function JayashMusicPortfolio() {
 
           {/* Streaming Platforms */}
           <motion.section
-  variants={fadeInUp}
-  initial="hidden"
-  whileInView="visible"
-  viewport={{ once: true, amount: 0.05 }} className="py-24 px-6 border-t border-white/10">
+            variants={fadeInUp}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.05 }} className="py-24 px-6 border-t border-white/10">
             <div className="max-w-6xl mx-auto text-center">
               <h2 className="text-5xl font-black mb-6">Listen Everywhere.</h2>
               <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-12">
