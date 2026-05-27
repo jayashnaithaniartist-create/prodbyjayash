@@ -134,7 +134,7 @@ export default function JayashMusicPortfolio() {
       </section>
 
       {/* About Section */}
-      <section className="fade-section py-24 px-6 border-t border-white/10">
+      <section className="py-24 px-6 border-t border-white/10">
         <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-bold mb-6">About Me</h2>
@@ -178,7 +178,7 @@ export default function JayashMusicPortfolio() {
       </section>
 
       {/* Services */}
-      <section className="fade-section py-24 px-6 border-t border-white/10">
+      <section className="py-24 px-6 border-t border-white/10">
         <div className="max-w-6xl mx-auto">
           <div className="mb-12 text-center">
             <h2 className="text-4xl font-bold mb-4">Services</h2>
@@ -211,7 +211,7 @@ export default function JayashMusicPortfolio() {
       </section>
 
       {/* Music Section */}
-      <section className="fade-section py-24 px-6 border-t border-white/10">
+      <section className="py-24 px-6 border-t border-white/10">
         <div className="max-w-6xl mx-auto">
           <div className="mb-12 text-center">
             <h2 className="text-4xl font-bold mb-4">Featured Releases</h2>
@@ -264,7 +264,7 @@ export default function JayashMusicPortfolio() {
       </section>
 
       {/* Contact Section */}
-      <section className="fade-section py-24 px-6 border-t border-white/10">
+      <section className="py-24 px-6 border-t border-white/10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-5xl font-black mb-6">
             Let’s Create Something Incredible.
@@ -290,7 +290,7 @@ export default function JayashMusicPortfolio() {
       {/* Footer */}
       {/* Streaming Platforms */}
    
-<section className="fade-section py-24 px-6 border-t border-white/10 bg-gradient-to-b from-black to-zinc-950">
+<section className="py-24 px-6 border-t border-white/10 bg-gradient-to-b from-black to-zinc-950">
   <div className="max-w-6xl mx-auto text-center">
     <h2 className="text-5xl font-black mb-6">Listen Everywhere.</h2>
 
