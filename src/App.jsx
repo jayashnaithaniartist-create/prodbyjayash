@@ -1,54 +1,54 @@
 export default function JayashMusicPortfolio() {
   const tracks = [
-    {
-      title: "Kyu Zindagi",
-      genre: "Emotional Electronic / Indian Fusion",
-      description:
-        "A deeply emotional electronic single blending cinematic production with heartfelt vocals by Jayash Naithani and Lavanya Bajpai.",
-      image:
-        "/kyuzindagi.png",
-    },
-    {
-      title: "MITR",
-      genre: "Experimental / Spiritual Fusion",
-      description:
-        "Minimal yet immersive production inspired by emotional and spiritual storytelling with atmospheric textures.",
-      image:
-        "/mitr.png",
-    },
-    {
-      title: "DARIYA",
-      genre: "Indie / Cinematic",
-      description:
-        "A cinematic indie collaboration exploring freedom, memories, and emotional depth through immersive instrumentation.",
-      image:
-        "/dariya.jpeg",
-    },
-    {
-      title: "Mine",
-      genre: "Dark Pop / Electronic",
-      description:
-        "Dark atmospheric production with emotional vocal writing and immersive sound design.",
-      image:
-        "/mine.png",
-    },
-    {
-      title: "Tu Na Mila",
-      genre: "Indie Pop / Emotional",
-      description:
-        "A melancholic indie-pop release centered around emotional storytelling and melodic songwriting.",
-      image:
-        "/tunamila.png",
-    },
-    {
-      title: "Mai Na Rha",
-      genre: "Alternative / Emotional",
-      description:
-        "Raw emotional songwriting combined with cinematic textures and immersive production.",
-      image:
-        "mainarha.png",
-    },
-  ];
+  {
+    title: "Kyu Zindagi",
+    genre: "Drum & Bass / I-Pop",
+    description:
+      "An emotional Drum & Bass release driven by heartbreak lyrics, cinematic melodies, and a high-energy drop featuring vocals by Jayash Naithani and Lavanya.",
+    image:
+      "/kyuzindagi.png",
+  },
+  {
+    title: "MITR",
+    genre: "Future Bass",
+    description:
+      "A motivational Future Bass track inspired by Krishna quotes, blending uplifting energy, emotional melodies, and fast-paced electronic production.",
+    image:
+      "/mitr.png",
+  },
+  {
+    title: "DARIYA",
+    genre: "I-Pop / Acoustic",
+    description:
+      "A heartfelt acoustic I-Pop track centered around heartbreak emotions, featuring vocals by Jayash and Arnav with expressive electric guitar performances by Ishaan.",
+    image:
+      "/dariya.jpeg",
+  },
+  {
+    title: "Mine",
+    genre: "I-Pop / Hip-Hop",
+    description:
+      "A romantic I-Pop release combining emotional melodies, electrifying production, vocals by Jayash, and a rap performance by Naxy.",
+    image:
+      "/mine.png",
+  },
+  {
+    title: "Tu Na Mila",
+    genre: "Emotional Future Bass / I-Pop",
+    description:
+      "A multilingual emotional Future Bass track exploring heartbreak through Hindi vocals by Jayash and Malayalam vocals by Anagha.",
+    image:
+      "/tunamila.png",
+  },
+  {
+    title: "Mai Na Rha",
+    genre: "Emotional Drill",
+    description:
+      "A dark and emotional Drill track built around heartbreak themes, combining melodic vocals and introspective rap performances by Jayash.",
+    image:
+      "/mainarha.png",
+  },
+];
 
   const services = [
     "Music Production",
