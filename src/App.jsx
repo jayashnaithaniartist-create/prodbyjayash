@@ -88,7 +88,7 @@ export default function JayashMusicPortfolio() {
   return (
     <div className="min-h-screen bg-black text-white font-sans overflow-x-hidden">
       {/* Hero Section */}
-      <section className="fade-section relative min-h-screen flex items-center justify-center px-6">
+      <section className="relative min-h-screen flex items-center justify-center px-6">
         <div className="absolute inset-0 bg-gradient-to-b from-purple-900/40 via-black to-black" />
 
         <div className="relative z-10 max-w-6xl w-full grid lg:grid-cols-2 gap-12 items-center">
