@@ -67,7 +67,7 @@ export default function JayashMusicPortfolio() {
 >
   {/* Background Image */}
   <img
-    src="/intro-bg.jpg"
+    src="/intro-bg.png"
     alt="Jayash Background"
     className="absolute inset-0 w-full h-full object-cover"
   />
