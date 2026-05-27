@@ -1,4 +1,30 @@
+import { useEffect, useRef } from "react";
+
+function useFadeOnScroll() {
+  useEffect(() => {
+    const elements = document.querySelectorAll(".fade-section");
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            entry.target.classList.remove("hidden");
+          } else {
+            entry.target.classList.remove("visible");
+            entry.target.classList.add("hidden");
+          }
+        });
+      },
+      { threshold: 0.15 }
+    );
+
+    elements.forEach((el) => observer.observe(el));
+    return () => observer.disconnect();
+  }, []);
+}
 export default function JayashMusicPortfolio() {
+  useFadeOnScroll(); 
   const tracks = [
     {
       title: "Kyu Zindagi",
@@ -62,7 +88,7 @@ export default function JayashMusicPortfolio() {
   return (
     <div className="min-h-screen bg-black text-white font-sans overflow-x-hidden">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center px-6">
+      <section className="fade-section relative min-h-screen flex items-center justify-center px-6">
         <div className="absolute inset-0 bg-gradient-to-b from-purple-900/40 via-black to-black" />
 
         <div className="relative z-10 max-w-6xl w-full grid lg:grid-cols-2 gap-12 items-center">
@@ -108,7 +134,7 @@ export default function JayashMusicPortfolio() {
       </section>
 
       {/* About Section */}
-      <section className="py-24 px-6 border-t border-white/10">
+      <section className="fade-section py-24 px-6 border-t border-white/10">
         <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-bold mb-6">About Me</h2>
@@ -152,7 +178,7 @@ export default function JayashMusicPortfolio() {
       </section>
 
       {/* Services */}
-      <section className="py-24 px-6 border-t border-white/10">
+      <section className="fade-section py-24 px-6 border-t border-white/10">
         <div className="max-w-6xl mx-auto">
           <div className="mb-12 text-center">
             <h2 className="text-4xl font-bold mb-4">Services</h2>
@@ -185,7 +211,7 @@ export default function JayashMusicPortfolio() {
       </section>
 
       {/* Music Section */}
-      <section className="py-24 px-6 border-t border-white/10">
+      <section className="fade-section py-24 px-6 border-t border-white/10">
         <div className="max-w-6xl mx-auto">
           <div className="mb-12 text-center">
             <h2 className="text-4xl font-bold mb-4">Featured Releases</h2>
@@ -238,7 +264,7 @@ export default function JayashMusicPortfolio() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-24 px-6 border-t border-white/10">
+      <section className="fade-section py-24 px-6 border-t border-white/10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-5xl font-black mb-6">
             Let’s Create Something Incredible.
@@ -264,7 +290,7 @@ export default function JayashMusicPortfolio() {
       {/* Footer */}
       {/* Streaming Platforms */}
    
-<section className="py-24 px-6 border-t border-white/10 bg-gradient-to-b from-black to-zinc-950">
+<section className="fade-section py-24 px-6 border-t border-white/10 bg-gradient-to-b from-black to-zinc-950">
   <div className="max-w-6xl mx-auto text-center">
     <h2 className="text-5xl font-black mb-6">Listen Everywhere.</h2>
 
@@ -278,7 +304,7 @@ export default function JayashMusicPortfolio() {
         <div className="bg-zinc-900 border border-white/10 rounded-3xl p-8 hover:border-green-500/40 transition">
           <div className="text-5xl mb-4">🎧</div>
           <h3 className="text-xl font-bold mb-2">Spotify</h3>
-          <p className="text-gray-400 text-sm">Part of 800K+ combined streams</p>
+          {/*<p className="text-gray-400 text-sm">Part of 800K+ combined streams</p>*/}
         </div>
       </a>
 
@@ -286,7 +312,7 @@ export default function JayashMusicPortfolio() {
         <div className="bg-zinc-900 border border-white/10 rounded-3xl p-8 hover:border-red-500/40 transition">
           <div className="text-5xl mb-4">▶️</div>
           <h3 className="text-xl font-bold mb-2">YouTube</h3>
-          <p className="text-gray-400 text-sm">Visual releases &amp; music</p>
+         
         </div>
       </a>
 
@@ -294,7 +320,7 @@ export default function JayashMusicPortfolio() {
         <div className="bg-zinc-900 border border-white/10 rounded-3xl p-8 hover:border-pink-500/40 transition">
           <div className="text-5xl mb-4">🎵</div>
           <h3 className="text-xl font-bold mb-2">Apple Music</h3>
-          <p className="text-gray-400 text-sm">Official releases</p>
+          
         </div>
       </a>
     </div>
