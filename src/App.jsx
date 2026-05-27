@@ -61,6 +61,7 @@ export default function JayashMusicPortfolio() {
 
   return (
     <div className="min-h-screen bg-black text-white font-sans overflow-x-hidden">
+
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center px-6">
         <div className="absolute inset-0 bg-gradient-to-b from-purple-900/40 via-black to-black" />
@@ -77,15 +78,21 @@ export default function JayashMusicPortfolio() {
 
             <p className="text-lg text-gray-300 leading-relaxed max-w-xl mb-8">
               Independent artist, producer, singer, and audio engineer with
-              over 800K+ combined streams across Spotify, Apple Music, YouTube, SoundCloud, and streaming platforms worldwide. Creating emotional,
-              cinematic electronic music blending Indian influences with modern
-              EDM, Drum & Bass, indie, and immersive sound design.
+              over 800K+ combined streams across Spotify, Apple Music, YouTube,
+              and streaming platforms worldwide. Creating emotional, cinematic
+              electronic music blending Indian influences with modern EDM, Drum
+              &amp; Bass, indie, and immersive sound design.
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <button className="bg-white text-black px-6 py-3 rounded-2xl font-semibold hover:scale-105 transition">
+              <a
+                href="https://open.spotify.com/artist/07bB80O9umDkGmq0FIfKCm?si=6tfLtNQmTi2EPMLsfHdTjw"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-black px-6 py-3 rounded-2xl font-semibold hover:scale-105 transition"
+              >
                 Listen Now
-              </button>
+              </a>
 
               <button className="border border-white/20 px-6 py-3 rounded-2xl hover:bg-white/10 transition">
                 Book Services
@@ -98,8 +105,8 @@ export default function JayashMusicPortfolio() {
 
             <div className="relative bg-zinc-900 border border-white/10 rounded-[2rem] p-8 shadow-2xl">
               <img
-                src="\jayash.jpg"
-                alt="Music Studio"
+                src="/jayash.jpg"
+                alt="Jayash Naithani"
                 className="rounded-2xl w-full h-[450px] object-cover"
               />
             </div>
@@ -222,9 +229,14 @@ export default function JayashMusicPortfolio() {
                   </p>
 
                   <div className="flex gap-3">
-                    <button className="flex-1 bg-white text-black py-3 rounded-2xl font-semibold hover:opacity-90 transition">
+                    <a
+                      href="https://open.spotify.com/artist/07bB80O9umDkGmq0FIfKCm?si=6tfLtNQmTi2EPMLsfHdTjw"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 bg-white text-black py-3 rounded-2xl font-semibold hover:opacity-90 transition text-center"
+                    >
                       Listen
-                    </button>
+                    </a>
 
                     <button className="px-5 border border-white/20 rounded-2xl hover:bg-white/10 transition">
                       Share
@@ -241,7 +253,7 @@ export default function JayashMusicPortfolio() {
       <section className="py-24 px-6 border-t border-white/10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-5xl font-black mb-6">
-            Let’s Create Something Incredible.
+            Let's Create Something Incredible.
           </h2>
 
           <p className="text-gray-400 text-lg mb-10 max-w-2xl mx-auto">
@@ -250,69 +262,120 @@ export default function JayashMusicPortfolio() {
           </p>
 
           <div className="flex flex-wrap justify-center gap-4">
-            <button className="bg-white text-black px-8 py-4 rounded-2xl font-semibold hover:scale-105 transition">
+            <a
+              href="mailto:your@email.com"
+              className="bg-white text-black px-8 py-4 rounded-2xl font-semibold hover:scale-105 transition"
+            >
               Contact Me
-            </button>
+            </a>
 
-            <button className="border border-white/20 px-8 py-4 rounded-2xl hover:bg-white/10 transition">
+            <a
+              href="https://open.spotify.com/artist/07bB80O9umDkGmq0FIfKCm?si=6tfLtNQmTi2EPMLsfHdTjw"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-white/20 px-8 py-4 rounded-2xl hover:bg-white/10 transition"
+            >
               Spotify
-            </button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Streaming Platforms */}
+      <section className="py-24 px-6 border-t border-white/10 bg-gradient-to-b from-black to-zinc-950">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2 className="text-5xl font-black mb-6">Listen Everywhere.</h2>
+
+          <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-12">
+            Explore Jayash Naithani's music across Spotify, YouTube, Apple
+            Music, and streaming platforms worldwide.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <a
+              href="https://open.spotify.com/artist/07bB80O9umDkGmq0FIfKCm?si=6tfLtNQmTi2EPMLsfHdTjw"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+            >
+              <div className="bg-zinc-900 border border-white/10 rounded-3xl p-8 hover:border-green-500/40 transition">
+                <div className="text-5xl mb-4">🎧</div>
+                <h3 className="text-xl font-bold mb-2">Spotify</h3>
+                <p className="text-gray-400 text-sm">
+                  Part of 800K+ combined streams
+                </p>
+              </div>
+            </a>
+
+            <a
+              href="https://www.youtube.com/@jayashnaithanimusic"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+            >
+              <div className="bg-zinc-900 border border-white/10 rounded-3xl p-8 hover:border-red-500/40 transition">
+                <div className="text-5xl mb-4">▶️</div>
+                <h3 className="text-xl font-bold mb-2">YouTube</h3>
+                <p className="text-gray-400 text-sm">
+                  Visual releases &amp; music
+                </p>
+              </div>
+            </a>
+
+            <a
+              href="https://music.apple.com/us/artist/jayash-naithani/1631734935"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+            >
+              <div className="bg-zinc-900 border border-white/10 rounded-3xl p-8 hover:border-pink-500/40 transition">
+                <div className="text-5xl mb-4">🎵</div>
+                <h3 className="text-xl font-bold mb-2">Apple Music</h3>
+                <p className="text-gray-400 text-sm">Official releases</p>
+              </div>
+            </a>
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      {/* Streaming Platforms */}
-      <section className="py-24 px-6 border-t border-white/10 bg-gradient-to-b from-black to-zinc-950">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-5xl font-black mb-6">
-            Listen Everywhere.
-          </h2>
-
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-12">
-            Explore Jayash Naithani’s music across Spotify, YouTube, Apple Music,
-            SoundCloud, and streaming platforms worldwide.
-          </p>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <div className="bg-zinc-900 border border-white/10 rounded-3xl p-8 hover:border-green-500/40 transition">
-              <div className="text-5xl mb-4">🎧</div>
-              <h3 className="text-xl font-bold mb-2">Spotify</h3>
-              <p className="text-gray-400 text-sm">Part of 800K+ combined streams</p>
-            </div>
-
-            <div className="bg-zinc-900 border border-white/10 rounded-3xl p-8 hover:border-red-500/40 transition">
-              <div className="text-5xl mb-4">▶️</div>
-              <h3 className="text-xl font-bold mb-2">YouTube</h3>
-              <p className="text-gray-400 text-sm">Visual releases & music</p>
-            </div>
-
-            <div className="bg-zinc-900 border border-white/10 rounded-3xl p-8 hover:border-pink-500/40 transition">
-              <div className="text-5xl mb-4">🎵</div>
-              <h3 className="text-xl font-bold mb-2">Apple Music</h3>
-              <p className="text-gray-400 text-sm">Official releases</p>
-            </div>
-
-            <div className="bg-zinc-900 border border-white/10 rounded-3xl p-8 hover:border-orange-500/40 transition">
-              <div className="text-5xl mb-4">☁️</div>
-              <h3 className="text-xl font-bold mb-2">SoundCloud</h3>
-              <p className="text-gray-400 text-sm">Exclusive uploads</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <footer className="border-t border-white/10 py-8 px-6">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-500">
-            © 2026 Jayash. All rights reserved.
-          </p>
+          <p className="text-gray-500">© 2026 Jayash. All rights reserved.</p>
 
           <div className="flex gap-6 text-gray-400">
-            <a href="#">Instagram</a>
-            <a href="#">Spotify</a>
-            <a href="#">YouTube</a>
-            <a href="#">SoundCloud</a>
+            <a
+              href="https://www.instagram.com/prodbyjayash/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition"
+            >
+              Instagram
+            </a>
+            <a
+              href="https://open.spotify.com/artist/07bB80O9umDkGmq0FIfKCm?si=6tfLtNQmTi2EPMLsfHdTjw"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition"
+            >
+              Spotify
+            </a>
+            <a
+              href="https://www.youtube.com/@jayashnaithanimusic"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition"
+            >
+              YouTube
+            </a>
+            <a
+              href="https://music.apple.com/us/artist/jayash-naithani/1631734935"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition"
+            >
+              Apple Music
+            </a>
           </div>
         </div>
       </footer>
