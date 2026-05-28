@@ -259,7 +259,7 @@ export default function JayashMusicPortfolio() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: false, amount: 0.15 }} className="py-24 px-6 border-t border-white/10">
-            <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+            <div className="max-w-7xl mx-auto grid lg:grid-cols-3 gap-12 items-center">
               <div>
                 <h2 className="text-4xl font-bold mb-6">About Me</h2>
                 <p className="text-gray-300 leading-relaxed mb-6">
@@ -290,6 +290,17 @@ export default function JayashMusicPortfolio() {
                 <div className="bg-zinc-900/80 p-6 rounded-3xl border border-white/10">
                   <h3 className="text-4xl font-black mb-2">Global</h3>
                   <p className="text-gray-400">Independent Artist Reach</p>
+                </div>
+              </div>
+              <div className="relative">
+                <div className="absolute -inset-4 bg-purple-500/20 blur-3xl rounded-full" />
+
+                <div className="relative bg-zinc-900/70 backdrop-blur-xl border border-white/10 rounded-[2rem] p-4">
+                  <img
+                    src="/about-photo.png"
+                    alt="Jayash Naithani"
+                    className="rounded-[1.5rem] w-full h-[500px] object-cover"
+                  />
                 </div>
               </div>
             </div>
