@@ -146,7 +146,7 @@ export default function JayashMusicPortfolio() {
           </h1>
 
           <p className="mt-6 text-gray-300 uppercase tracking-[0.4em] text-sm md:text-base">
-            Producer • Artist • Audio Engineer
+            Producer • Artist • Audio Engineer • DJ
           </p>
         </div>
 
