@@ -297,7 +297,7 @@ export default function JayashMusicPortfolio() {
 
                 <div className="relative bg-zinc-900/70 backdrop-blur-xl border border-white/10 rounded-[2rem] p-4">
                   <img
-                    src="/about-photo.png"
+                    src="/jayash3.jpg"
                     alt="Jayash Naithani"
                     className="rounded-[1.5rem] w-full h-[500px] object-cover"
                   />
