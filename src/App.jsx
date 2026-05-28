@@ -86,9 +86,9 @@ export default function JayashMusicPortfolio() {
         "Clean vocal recording, tuning, timing correction, layering, and vocal processing designed for polished and emotionally impactful performances.",
     },
     {
-      title: "Beat Production",
+      title: "Disc Jockey (DJing)",
       description:
-        "Custom beat production across EDM, Drum & Bass, hip-hop, emotional electronic, indie, and experimental genres tailored to your artistic vision.",
+        "Live DJ performances blending emotional electronic music, Drum & Bass, Future Bass, cinematic transitions, and immersive crowd-focused energy.",
     },
     {
       title: "Songwriting",
